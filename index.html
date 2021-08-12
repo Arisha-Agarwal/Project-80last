@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Guest List
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body style="background-color:lightgreen;">
+<center>
+ <p id="header"> <font style="color:black;"><b><i><u>Guest list</u></i></b></font></p>
+ <hr color="white" size="6" width="1600px"><br><br><br>
+   <input id="inputname" type="text" placeholder="Enter the name of the guest..." style="height:50px; width:320px; background-color:lightblue; color:black; font-size:x-large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <button id="button_submit" type="button" onclick="submit()" style="height:50px; width:200px; background-color:lightskyblue; border-color:whitesmoke; border-width:3; border-style: dashed; font-size:xx-large;">SUBMIT</button><br><br><br>
+   <hr color="white" size="6" width="1600px"><br><br><br>
+   <button type="button" id="button_show" onclick="show()"style="height:50px; width:300px; background-color:yellow; border-color:whitesmoke; border-width:3; border-style: dashed; font-size:xx-large;">Show guest list...</button><br><br><br>
+   <p id="p1"></p>
+   <div id="display_guests">
+</div><br><br><br>
+   <hr color="white" size="6" width="1600px"><br><br><br>
+   <button type="button" id="button_showsorted" onclick="sorting()"style="height:50px; width:300px; background-color:yellow; border-color:whitesmoke; border-width:3; border-style: dashed; font-size:x-large;">Show sorted guest list...</button>
+   <div id="sorted"></div>
+    </div>
+   <hr color="white" size="6" width="1600px"><br><br><br>
+   <input id="input_search" type="text" placeholder="Search for names..." style="height:50px; width:320px; background-color:plum; color:black; font-size:x-large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <button id="button_submit" type="button" onclick="searching()" style="height:50px; width:200px; background-color:plum; border-color:whitesmoke; border-width:3; border-style: dashed; font-size:xx-large;">Search...</button><br><br><br>
+   <p id="p2"></p>
+</center>
+    </body>
+</html>
